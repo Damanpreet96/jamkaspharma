@@ -391,8 +391,8 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
             border-radius: 50%;
             background: rgba(255,255,255,0.1);
             color: var(--white);
@@ -404,6 +404,7 @@
         .social-links a:hover {
             background: var(--secondary);
             transform: translateY(-5px);
+            cursor: pointer;
         }
         img.footer-logo {
     width: 200px;
@@ -802,4 +803,10 @@ section#youtube .mb-4 {
     .container .timeline {
         max-width: 540px;
     }
+}
+
+
+.contact-info a {
+    color: #333;
+    text-decoration-line: none;
 }
