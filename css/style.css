@@ -277,10 +277,12 @@
         }
         
         /* Third Party Manufacturing */
-        .manufacturing {
-            background: linear-gradient(rgba(6, 84, 150, 0.9), rgba(6, 84, 150, 0.9)), url('https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
-            color: var(--white);
-        }
+      .manufacturing {
+    background: linear-gradient(rgb(6 84 150 / 66%), rgb(6 84 150 / 65%)), url(image/Best-Pharma-Contract-Manufacturing-Solutions-BG.jpg) no-repeat center center / cover;
+    color: var(--white);
+    background-position: bottom;
+    background-size: cover;
+}
         
         .manufacturing .section-title h2 {
             color: var(--white);
