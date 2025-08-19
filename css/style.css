@@ -824,3 +824,8 @@ section#youtube .mb-4 {
 section#about {
     padding: 20px 0 !important;
 }
+.navbar.scrolled {
+    background: var(--white);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    position: fixed !important;
+}
